@@ -8,17 +8,12 @@ void upperCase(char s[]){
 	}
 }
 
-
-
 int main(){
 	char s[100] = "";
 	printf("Nhap vao chuoi s : ");
 	fgets(s, sizeof(s), stdin);
 	printf("Chuoi s vua nhap la : %s", s);
-
 	upperCase(s);
-	printf("Chuoi s duoc chuyen doi la %s", s);
-	
-	
+	printf("Chuoi s duoc chuyen doi la : %s", s);		
 }
 
